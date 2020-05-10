@@ -39,6 +39,7 @@ func main() {
 		} else if guess > target {
 			fmt.Println("Your guess was too HIGH.")
 		} else {
+			success = true
 			fmt.Println("Well done, Turner!")
 			break
 		}
